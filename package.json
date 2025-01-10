@@ -1,11 +1,11 @@
 {
   "name": "blackout",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "https://github.com/overthestream/blackout",
   "author": "overthestream <njhnjh02@naver.com>",
   "license": "MIT",
-    "scripts": {
+  "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
@@ -16,7 +16,7 @@
   "dependencies": {
     "@nestjs/cache-manager": "^2.0.0",
     "@nestjs/common": "^10.0.0",
-    "@nestjs/config": "^3.1.1",
+    "@nestjs/config": "^3.3.0",
     "@nestjs/core": "^10.4.1",
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/swagger": "^7.4.0",
@@ -31,7 +31,7 @@
     "pg": "^8.11.3",
     "query-string": "^9.1.0",
     "redis": "^4.6.10",
-    "reflect-metadata": "^0.1.13",
+    "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1",
     "typeorm": "^0.3.17"
   },
